@@ -1,7 +1,78 @@
-# HTML-y-CSS-estructura-archivos-y-tags-
-# Presentación de Leon Carrazco
+# Ejercicio de CSS: Armonía de Colores, Corrección de Errores y Colores RGB 🎨
 
-Este es un proyecto web dedicado a Leon Carrazco, un niño de 9 años que graba videos de juegos en la plataforma Poki y se graba con Loom. La web incluye una presentación sobre Leon, sus juegos favoritos, sus videos, y un formulario de contacto.
+## Descripción del Ejercicio
+
+En este ejercicio, vamos a trabajar con diferentes aspectos de la gestión de colores en CSS para mejorar el diseño y la legibilidad de un sitio web. Aquí cubriremos tres tareas principales:
+
+1. **Armonía de Colores** 🌈
+2. **Identificación y Corrección de Errores de Colores** 🚫
+3. **Jugando con Colores RGB** 🎨
+
+## 1. Armonía de Colores 🌈
+
+**Objetivo:** Crear una paleta de colores armoniosa para tu sitio web utilizando la Rueda de Colores de Adobe.
+
+**Pasos a seguir:**
+
+- Selecciona un color principal y dos colores secundarios.
+- Aplica estos colores en el archivo `style.css`.
+- Utiliza el color principal para el fondo de la página.
+- Usa los colores secundarios para el texto en diferentes elementos, como títulos y párrafos.
+
+**Ejemplo de Código:**
+
+```css
+/* style.css */
+
+/* Color principal como fondo de la página */
+body {
+    background-color: #3498db; /* Azul */
+    color: #F6F6F6; /* Texto en color claro */
+}
+
+/* Color secundario 1 para los títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: #e67e22; /* Naranja */
+}
+
+/* Color secundario 2 para los párrafos */
+p {
+    color: #2ecc71; /* Verde */
+}
+
+## 2. Identificación y Corrección de Errores de Colores 🚫
+Objetivo: Corregir un error de visibilidad de texto en el proyecto.
+
+Problema: El texto es invisible porque el color del texto y el color de fondo son iguales.
+
+Pasos a seguir:
+
+Cambia el color del texto a uno visible para que sea legible contra el fondo oscuro.
+/* style.css */
+
+/* Fondo negro */
+body {
+    background-color: #000000; /* Fondo oscuro */
+    color: #F6F6F6; /* Texto en color claro para mejor visibilidad */
+}
+
+## 3. Jugando con Colores RGB 🎨
+Objetivo: Experimentar con la representación de colores en formato RGB.
+
+Pasos a seguir:
+
+Elige dos colores: uno para el fondo y otro para el texto.
+Aplica estos colores en el archivo style.css utilizando la notación hexadecimal RGB.
+/* style.css */
+
+body {
+    background-color: #FF5733; /* Naranja vibrante */
+    color: #00FF00; /* Verde brillante */
+}
+## Recursos Adicionales
+Rueda de Colores de Adobe
+Guía de Colores en CSS
+¡Diviértete explorando el mundo del diseño de colores en CSS! 🎉
 
 ## Estructura del Proyecto
 
@@ -33,6 +104,7 @@ El proyecto contiene las siguientes páginas y archivos:
     ├── css
     │   ├── colorido.css
     │   ├── formal.css
+        ├── armoniaDeColores.css
     │   └── minimalista.css
     ├── js
     │   └── app.js
@@ -40,7 +112,7 @@ El proyecto contiene las siguientes páginas y archivos:
     ├── about.html
     ├── games.html
     ├── videos.html
-    └── contact.html
+    └── contacto.html
     ```
 
 2. **Abrir el Proyecto**: Puedes abrir el archivo `index.html` en un navegador web para ver la página de inicio y navegar a otras páginas desde allí.
@@ -74,4 +146,5 @@ Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
 
 ---
 
-Gracias por visitar la presentación de Leon Carrazco. ¡Esperamos que disfrutes explorando su mundo de juegos y videos!
+
+Este archivo `README.md` proporciona una descripción clara del ejercicio y ejemplos de código para cada tarea.
