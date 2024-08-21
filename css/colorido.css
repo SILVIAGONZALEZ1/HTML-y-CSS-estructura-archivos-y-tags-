@@ -1,0 +1,50 @@
+/* Reseteo básico para quitar márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffeb3b;
+    color: #1a237e;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+header nav ul {
+    background-color: #ff5722;
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #d32f2f;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
